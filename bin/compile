@@ -35,7 +35,7 @@ if [ ! -f "$CACHE_DIR/$PACKAGE" ]; then
   $download $DOWNLOAD_URL
 
   if [ -z "$PACKAGE_CHECKSUM" ]; then
-    $download $PACKAGE.sha1.txt
+    $download $DOWNLOAD_URL.sha1.txt
   elif [ $PACKAGE_CHECKSUM != $PACKAGE.sha1.txt ]; then
     grep $PACKAGE $PACKAGE_CHECKSUM > $PACKAGE.sha1.txt
   fi
