@@ -23,4 +23,4 @@ $ heroku run bin/wkhtmltopdf -V
 
 ## Reference
 
-(Heroku Buildpacks)[https://devcenter.heroku.com/articles/buildpacks]
+[Heroku Buildpacks](https://devcenter.heroku.com/articles/buildpacks)
