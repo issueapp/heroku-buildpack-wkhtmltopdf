@@ -51,6 +51,5 @@ if [ ! -f "$CACHE_DIR/$PACKAGE" ]; then
   fi
 
   $extract $CACHE_DIR/$PACKAGE
+  mv $CACHE_DIR/wkhtmltox/bin/* $BUILD_DIR/bin/
 fi
-
-mv $CACHE_DIR/wkhtmltox/bin/* $BUILD_DIR/bin/
